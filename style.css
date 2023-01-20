@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background: #21ad8a;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav--img {
+    width: 20px;
+    align-self: center;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.nav--text {
+    color: #ffffff;
+    width: 109px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.main--img {
+    width: 125px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.main--container {
+    display: flex;
+    margin: 20px;
+}
+
+p {
+    width: 326px;
+height: 45px;
+left: 184px;
+top: 203px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #2B283A;
+}
+
+.travel--info {
+    padding-left: 20px
+}
+
+a {
+    padding-left: 12px;
+    color: #918E9B;
+}
+
+.location--img {
+    margin-right: 5px;
+    width: 10px;
+}
+
+.date {
+    width: 319px;
+height: 11px;
+left: 184px;
+top: 183px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+}
