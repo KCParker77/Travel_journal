@@ -22,25 +22,3 @@ export default function App() {
         </div>
     )
 }
-
-
-/* export default function App() {
-    const cards = data.map(item => {
-        return (
-            <Card
-                key={item.id}
-                item={item}
-            />
-        )
-    })        
-    
-            // <Hero />
-    return (
-        <div>
-            <Navbar />
-            <section className="cards-list">
-                {cards}
-            </section>
-        </div>
-    )
-}*/
